@@ -1,0 +1,15 @@
+.otp-input-fields {
+  margin-right: 11px;
+  width: 50px;
+  height: 60px;
+  border-radius: 8px;
+  border-width: 0.8px;
+  text-align: center;
+  border-color: #0858f7;
+  outline: none;
+  /* box-shadow: 0 0 2px 4px rgba(0, 85, 255, 0.2); */
+}
+
+.otp-input-fields:hover {
+  box-shadow: 0 0 2px 4px rgba(0, 85, 255, 0.2);
+}

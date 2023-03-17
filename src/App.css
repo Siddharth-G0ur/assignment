@@ -1,0 +1,56 @@
+.logo {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 48px;
+  top: 40px;
+}
+
+.bottom_text {
+  position: absolute;
+  width: 187px;
+  height: 16px;
+  left: 49px;
+  top: 704px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #18181b;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.sign_in {
+  width: 608px;
+  height: 768px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #18181b;
+}
+
+.heading {
+  width: 344px;
+  height: 64px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #18181b;
+}
