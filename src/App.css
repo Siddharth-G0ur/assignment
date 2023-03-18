@@ -1,10 +1,32 @@
 .logo {
-  position: absolute;
   width: 32px;
   height: 32px;
+  position: absolute;
   left: 48px;
   top: 40px;
 }
+
+/* .logo_animate {
+  animation-name: slideInCenter;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 10s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+@keyframes slideInCenter {
+  from {
+    transform: translateX(-300px);
+    transform: translateY(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+} */
 
 .bottom_text {
   position: absolute;
@@ -53,4 +75,32 @@ img {
   letter-spacing: -0.01em;
   font-feature-settings: "tnum" on, "lnum" on;
   color: #18181b;
+}
+
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: width 0.3s 0.3s, height 0.3s 0.3s, opacity 0.3s;
+}
+.fadeIn {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  transition: width 0.3s, height 0.3s, opacity 0.3s 0.3s;
+}
+.next-txt:hover {
+  transform: translateX(-10px);
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  opacity: 0.2;
+  border-radius: 12px;
+}
+
+.circle:hover {
+  opacity: 1;
 }
