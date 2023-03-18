@@ -6,28 +6,6 @@
   top: 40px;
 }
 
-/* .logo_animate {
-  animation-name: slideInCenter;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-  animation-delay: 10s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
-}
-
-@keyframes slideInCenter {
-  from {
-    transform: translateX(-300px);
-    transform: translateY(-300px);
-  }
-
-  to {
-    transform: translateX(0);
-    transform: translateY(0);
-  }
-} */
-
 .bottom_text {
   position: absolute;
   width: 187px;
@@ -103,4 +81,23 @@ img {
 
 .circle:hover {
   opacity: 1;
+}
+
+.success {
+  opacity: 0;
+}
+
+@keyframes slideInCenter {
+  from {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translate(45vw, 40vh);
+  }
+}
+
+.logo_animate {
+  animation: slideInCenter 2s 1 forwards ease-in-out;
 }
