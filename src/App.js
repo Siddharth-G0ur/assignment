@@ -72,11 +72,10 @@ function App() {
 
   return (
     <>
-      {/* <div className={success ? "logo_animate" : "logo"}> */}
       <div className="logo">
         <img src={logo} alt="logo" />
       </div>
-      {/* -------------------------Banner------------------------ */}
+      {/* -------------------------Banner------------------------- */}
       <div
         style={{
           position: " absolute",
